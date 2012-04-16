@@ -1,4 +1,6 @@
 C2::Application.routes.draw do
+  resources :activities
+
   resources :clubs
 
   resources :users
